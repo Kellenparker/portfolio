@@ -9,7 +9,10 @@ type myState = {
 };
 
 class Snippet extends React.Component<myProps, myState> {
-    code = ['<div id="root">', 'getCode = () =>' , 'obj[i]->getCode()'];
+    code = ['<div id="root">', 
+            'getCode = () =>', 
+            'obj[i]->getCode()', 
+            'interface code ='];
     changeInterval: NodeJS.Timer | undefined;
     cursorInterval: NodeJS.Timer | undefined;
     constructor(props: myProps | Readonly<myProps>) {
@@ -39,11 +42,12 @@ class Snippet extends React.Component<myProps, myState> {
         clearInterval(this.cursorInterval);
         this.setState({
             change: true,
-            cursor: false
+            cursor: false,
         });
 
-        if (this.state.currentCode + 1 >= this.code.length) var next = 0;
-        else var next = this.state.currentCode + 1;
+        var next: number;
+        if (this.state.currentCode + 1 >= this.code.length) next = 0;
+        else next = this.state.currentCode + 1;
 
         setTimeout(() => {
             this.setState({
@@ -67,11 +71,12 @@ class Snippet extends React.Component<myProps, myState> {
                 </div>
 
                 <div
-                    className={"main" + " bottom "}
+                    className={"main bottom"}
                     style={{ animationName: this.state.change ? "animbot" : "", animationDuration: "2s" }}
                 >
                     <code className="string">
-                        &nbsp;{this.code[this.state.currentCode >= this.code.length - 1 ? 0 : this.state.currentCode + 1]}
+                        &nbsp;
+                        {this.code[this.state.currentCode >= this.code.length - 1 ? 0 : this.state.currentCode + 1]}
                     </code>
                     <code className="string" style={{ opacity: !this.state.cursor ? "0" : "1" }}>
                         |

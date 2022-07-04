@@ -1,0 +1,29 @@
+
+.snippet {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    height: 60px;
+    width: 350px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: inset 0 0 10px rgb(112, 112, 112, .2);
+}
+
+@keyframes anim {
+    0% {transform: translateY(0%);}
+    100% {transform: translateY(-110%);}
+}
+
+@keyframes animbot {
+    0% {transform: translateY(110%);}
+    100% {transform: translateY(0%);}
+}
+
+.main {
+    position: absolute;
+    padding-top: 10px;
+}
+
+.bottom {
+    transform: translateY(110%);
+}

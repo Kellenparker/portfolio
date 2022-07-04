@@ -1,12 +1,12 @@
 
 .header {
     overflow: hidden;
-    background-color: rgb(43, 149, 255);
-    position: sticky;
+    background-color: rgb(100, 100, 100, .1);
+    position: fixed;
+    backdrop-filter: blur(5px);
     top: 0;
     width: 100%;
     height: 70px;
-    box-shadow: 0 4px 0 rgb(255, 182, 121);
 }
 
 .title {
@@ -17,9 +17,8 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    background-color: #f3ec78;
+    background-color: rgba(255,182,121,1);
     background-image: linear-gradient(90deg, rgba(255,255,255,1) 49%, rgba(255,182,121,1) 50%);
     background-size: 100%;
     background-clip: text;
@@ -40,25 +39,25 @@
 .btn-head {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    color: rgb(43, 149, 255);
+    color: white;
     height: 40px;
     width: 120px;
     border: none;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(100, 100, 100, .3);
     transition: transform 0.04s ease-out, box-shadow 0.04s ease-out;
     box-shadow: 0 2px 0 rgb(255, 182, 121);
 }
 
 .btn-head:not(:last-child) {
-    border-right: 1px solid #ddd;
+    border-right: 1px solid rgb(0, 0, 0);
 }
 
 .btn-head:hover {
-    background-color: rgb(240, 250, 255);
+    background-color: rgb(62, 62, 62);
 }
 
 .btn-head:active {
-    box-shadow: 0 0 0 rgb(153, 201, 255);
+    box-shadow: 0 0 0 rgb(255, 182, 121);
     transform: translateY(2px);
 }
 

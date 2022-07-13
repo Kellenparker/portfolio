@@ -7,6 +7,7 @@
     overflow: hidden;
     position: relative;
     box-shadow: inset 0 0 10px rgb(112, 112, 112, .2);
+    text-decoration: none;
 }
 
 @keyframes anim {

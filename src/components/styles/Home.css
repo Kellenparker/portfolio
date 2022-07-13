@@ -1,8 +1,4 @@
 
-.home-section {
-    z-index: 2;
-}
-
 .split {
     display: grid;
     grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);

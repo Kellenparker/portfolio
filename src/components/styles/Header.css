@@ -48,10 +48,6 @@
     box-shadow: 0 2px 0 rgb(255, 182, 121);
 }
 
-.btn-head:not(:last-child) {
-    border-right: 1px solid rgb(0, 0, 0);
-}
-
 .btn-head:hover {
     background-color: rgb(62, 62, 62);
 }
@@ -63,6 +59,11 @@
 
 .btn-left {
     border-radius: 8px 0 0 8px;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+.btn-secondary {
+    border-right: 1px solid rgb(0, 0, 0);
 }
 
 .btn-right {

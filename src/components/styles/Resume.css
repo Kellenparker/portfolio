@@ -1,0 +1,43 @@
+
+.resume-section {
+    z-index: 1;
+}
+
+.resume-pdf {
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-box-pack:center;
+    -moz-box-align: center;
+    display:-webkit-box;
+}
+
+.download {
+    margin-top: 30px;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-box-pack:center;
+    -moz-box-align: center;
+    display:-webkit-box;
+}
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: white;
+    height: 40px;
+    width: 220px;
+    border: none;
+    background-color: rgb(100, 100, 100, .3);
+    transition: transform 0.02s ease-out, box-shadow 0.02s ease-out;
+    box-shadow: 0 2px 0 rgb(255, 182, 121);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.btn:active {
+    box-shadow: 0 0 0 rgb(255, 182, 121);
+    transform: translateY(2px);
+}

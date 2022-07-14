@@ -23,7 +23,7 @@ function Header() {
                             Resume
                         </button>
                     </Link>
-                    <Link to="/">
+                    <Link to="/contact">
                         <button type="button" className="btn-head btn-right">
                             Contact
                         </button>

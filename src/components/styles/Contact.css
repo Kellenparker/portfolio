@@ -1,0 +1,22 @@
+
+.contact-card {
+    background-color: rgba(63, 63, 63, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    width: 20%;
+    position: fixed;
+    padding: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.contact-title {
+    color: rgb(255, 182, 121);
+    margin-top: 0px;
+}
+
+.center {
+    text-align: center;
+}

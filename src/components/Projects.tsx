@@ -7,7 +7,7 @@ function Projects() {
         <section className="projects">
             <h1 className="project-title">Projects</h1>
             <section className="project">
-                <div className="col">
+                <div className="img-col">
                     <img src={otr} alt="otr" className="project-img"></img>
                 </div>
                 <div className="col">
@@ -34,7 +34,7 @@ function Projects() {
             </section>
             <div id="spacer-project" />
             <section className="project">
-                <div className="col">
+                <div className="img-col">
                     <img src={otr} alt="otr" className="project-img"></img>
                 </div>
                 <div className="col">

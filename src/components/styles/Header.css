@@ -37,6 +37,15 @@
     right: 20%;
 }
 
+@media (max-width: 1200px) {
+    .title {
+        left: 0;
+    }
+    .btn-group {
+        right: 0;
+    }
+}
+
 .btn-head {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;

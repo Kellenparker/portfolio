@@ -28,3 +28,9 @@
 .bottom {
     transform: translateY(110%);
 }
+
+@media (max-width: 400px) {
+    .snippet {
+        width: 50vh;
+    }
+}

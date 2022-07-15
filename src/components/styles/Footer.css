@@ -33,3 +33,12 @@
     right: 20%;
     color: rgba(255,182,121,1)
 }
+
+@media (max-width: 600px) {
+    .right {
+        left: 0;
+    }
+    .left {
+        right: 0;
+    }
+}

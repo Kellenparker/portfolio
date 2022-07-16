@@ -34,7 +34,7 @@
     color: rgba(255,182,121,1)
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .right {
         left: 0;
     }

@@ -13,5 +13,11 @@
 }
 
 #spacer {
-	height: 100px;
+	height: 0;
+}
+
+@media (max-width: 500px) {
+	#spacer {
+		height: 100px;
+	}
 }

@@ -1,26 +1,27 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
+import { Link } from "react-router-dom";
 import "./styles/Menu.css";
 
 export default (props: any) => {
     return (
-        // Pass on our props
+        
         <Menu right {...props}>
-            <a className="menu-item" href="/">
+            <Link className="menu-item" to="/">
                 Home
-            </a>
-            
-            <a className="menu-item" href="/burgers">
+            </Link>
+
+            <Link className="menu-item" to="/projects">
                 Projects
-            </a>
+            </Link>
 
-            <a className="menu-item" href="/pizzas">
+            <Link className="menu-item" to="/resume">
                 Resume
-            </a>
+            </Link>
 
-            <a className="menu-item" href="/desserts">
+            <Link className="menu-item" to="/contact">
                 Contact
-            </a>
+            </Link>
         </Menu>
     );
 };

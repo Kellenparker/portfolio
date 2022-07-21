@@ -14,6 +14,7 @@ import SideBar from "./components/Menu";
 
 function App() {
     const [windowSize, setWindowSize] = useState(getWindowSize());
+    const showButtonWidth = 800;
 
     const particlesInit = async (main: Engine) => {
         console.log(main);
@@ -101,15 +102,14 @@ function App() {
                         detectRetina: true,
                     }}
                 />
-                {windowSize.innerWidth <= 750 && (
+                {windowSize.innerWidth <= showButtonWidth && (
                     <SideBar
                         pageWrapId={"root"}
                         outerContainerId={"App"}
                         className="menu"
-                        show={windowSize.innerWidth <= 750}
                     />
                 )}
-                <Header showButtons={windowSize.innerWidth > 750} />
+                <Header showButtons={windowSize.innerWidth > showButtonWidth} />
                 <div id="spacer" />
                 <Routes>
                     <Route path="/" element={<Home />} />

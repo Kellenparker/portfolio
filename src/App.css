@@ -5,11 +5,13 @@
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	align-content: flex-start;
 	justify-content: space-between;
 }
 
 .menu {
-	position: fixed;
+	position: absolute;
+  	top: 0;
 }
 
 #tsparticles {

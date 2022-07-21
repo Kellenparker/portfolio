@@ -8,6 +8,10 @@
 	justify-content: space-between;
 }
 
+.menu {
+	position: fixed;
+}
+
 #tsparticles {
 	z-index: 0;
 }
@@ -16,7 +20,7 @@
 	height: 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1500px) {
 	#spacer {
 		height: 100px;
 	}

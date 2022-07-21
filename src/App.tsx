@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -10,8 +10,11 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
+import SideBar from "./components/Menu";
 
 function App() {
+    const [windowSize, setWindowSize] = useState(getWindowSize());
+
     const particlesInit = async (main: Engine) => {
         console.log(main);
         await loadFull(main);
@@ -21,8 +24,20 @@ function App() {
         console.log(container);
     };
 
+    useEffect(() => {
+        function handleWindowResize() {
+            setWindowSize(getWindowSize());
+        }
+
+        window.addEventListener("resize", handleWindowResize);
+
+        return () => {
+            window.removeEventListener("resize", handleWindowResize);
+        };
+    }, []);
+
     return (
-        <div className="App">
+        <div className="App" id="App">
             <BrowserRouter>
                 <Particles
                     id="tsparticles"
@@ -86,7 +101,15 @@ function App() {
                         detectRetina: true,
                     }}
                 />
-                <Header />
+                {windowSize.innerWidth <= 750 && (
+                    <SideBar
+                        pageWrapId={"root"}
+                        outerContainerId={"App"}
+                        className="menu"
+                        show={windowSize.innerWidth <= 750}
+                    />
+                )}
+                <Header showButtons={windowSize.innerWidth > 750} />
                 <div id="spacer" />
                 <Routes>
                     <Route path="/" element={<Home />} />
@@ -94,10 +117,15 @@ function App() {
                     <Route path="/resume" element={<Resume />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
-				<Footer />
+                <Footer />
             </BrowserRouter>
         </div>
     );
+}
+
+function getWindowSize() {
+    const { innerWidth, innerHeight } = window;
+    return { innerWidth, innerHeight };
 }
 
 export default App;

@@ -61,6 +61,9 @@
     -webkit-box-pack:center;
     -moz-box-align: center;
     display:-webkit-box;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 @media (max-width: 600px) {
@@ -91,5 +94,10 @@
         padding-left: 5%;
         padding-right: 5%;
         padding-bottom: 150px;
+    }
+    .snip {
+        position: inherit;
+        top: 0;
+        transform: translateY(0);
     }
 }

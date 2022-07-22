@@ -31,6 +31,9 @@
 
 @media (max-width: 400px) {
     .snippet {
-        width: 50vh;
+        width: 35vh;
+        font-size: 20px;
+        height: 35px;
+        padding-bottom: 10px;
     }
 }

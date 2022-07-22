@@ -6,7 +6,9 @@ function Header(props: any) {
     return (
         <div className="header" key={props.showButtons}>
             <div className="contents">
-                <p className="title">Kellen Parker</p>
+                <Link to="/">
+                    <p className="title">Kellen Parker</p>
+                </Link>
                 {props.showButtons && (
                     <div className="btn-group" role="group" aria-label="header buttons">
                         <Link to="/">

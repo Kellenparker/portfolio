@@ -22,7 +22,7 @@
 	height: 0;
 }
 
-@media (max-width: 1500px) {
+@media (max-height: 970px) {
 	#spacer {
 		height: 100px;
 	}

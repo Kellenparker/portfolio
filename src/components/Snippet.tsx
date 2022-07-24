@@ -8,6 +8,10 @@ type myState = {
     cursor: boolean;
 };
 
+const changeTime = 7000;
+const cursorTime = 750;
+const changeDuration = 2000;
+
 class Snippet extends React.Component<myProps, myState> {
     code = ['<div id="root">', 
             'getCode = () =>', 
@@ -20,11 +24,11 @@ class Snippet extends React.Component<myProps, myState> {
         this.state = {
             currentCode: 0,
             change: false,
-            cursor: true,
+            cursor: false,
         };
     }
     componentDidMount() {
-        this.changeInterval = setInterval(() => this.changeCode(), 7000);
+        this.changeInterval = setInterval(() => this.changeCode(), changeTime);
         this.setCursor();
     }
     componentWillUnmount() {
@@ -36,13 +40,11 @@ class Snippet extends React.Component<myProps, myState> {
             this.setState({
                 cursor: !this.state.cursor,
             });
-        }, 500);
+        }, cursorTime);
     }
     changeCode() {
-        clearInterval(this.cursorInterval);
         this.setState({
             change: true,
-            cursor: false,
         });
 
         var next: number;
@@ -54,8 +56,7 @@ class Snippet extends React.Component<myProps, myState> {
                 currentCode: next,
                 change: false,
             });
-            this.setCursor();
-        }, 2000);
+        }, changeDuration);
     }
     render() {
         return (

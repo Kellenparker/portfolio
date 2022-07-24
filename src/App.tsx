@@ -66,7 +66,7 @@ function App() {
                                 color: "#ffffff",
                                 distance: 50,
                                 enable: true,
-                                opacity: 0.5,
+                                opacity: 0.2,
                                 width: 1,
                             },
                             collisions: {
@@ -90,7 +90,7 @@ function App() {
                                 value: 100,
                             },
                             opacity: {
-                                value: 0.6,
+                                value: 0.3,
                             },
                             shape: {
                                 type: "circle",

@@ -21,7 +21,7 @@ function Contact() {
                         backgroundColor="rgb(255, 182, 121)"
                         iconSize="4"
                         roundness="10%"
-                        url="https://some-website.com/my-social-media-url"
+                        url="www.linkedin.com/in/kellen-parker"
                         size="50"
                     />
                 </div>

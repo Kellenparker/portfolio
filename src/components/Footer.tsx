@@ -7,7 +7,7 @@ import { SocialMediaIconsReact } from "social-media-icons-react";
 function Footer() {
     return (
         <section className="footer">
-            <p style={{ marginTop: "0", paddingTop: "20px" }}>Connect with me!</p>
+            <p style={{ marginTop: "0", paddingTop: "20px" }}>Connect and Learn More!</p>
             <div className="socials li">
                 <SocialMediaIconsReact
                     borderColor="rgba(76, 76, 76, 0.5)"

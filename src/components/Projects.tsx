@@ -1,4 +1,3 @@
-import react from "react";
 import "./styles/Projects.css";
 import otr from "./imgs/otr.png";
 import bbbs from "./imgs/bbbs.png";
@@ -19,8 +18,9 @@ function Projects() {
                         game, although most of those elements are not implemented as of yet. The current version of On
                         the Ropes includes the majority of the backbone of which a management game can be built upon.
                     </p>
+                    <p>Note: this project is not optimized for mobile.</p>
                     <div className="btn-group-proj" role="group" aria-label="project buttons">
-                        <a href="http://github.com/kellenparker/ontheropes" target="_blank" rel="noreferrer">
+                        <a href="https://ontheropes.kellenp.com/" target="_blank" rel="noreferrer">
                             <button type="button" className="btn-proj btn-left">
                                 Try it!
                             </button>
@@ -46,8 +46,9 @@ function Projects() {
                         can have multiple armies and each army can be edited to the user's liking. This app taught me
                         the basics of Javascript, React.js, and web developement as a whole.
                     </p>
+                    <p>Note: this project is not optimized for mobile.</p>
                     <div className="btn-group-proj" role="group" aria-label="project buttons">
-                        <a href="http://github.com/kellenparker/battlesim" target="_blank" rel="noreferrer">
+                        <a href="https://barebones.kellenp.com/" target="_blank" rel="noreferrer">
                             <button type="button" className="btn-proj btn-left">
                                 Try it!
                             </button>

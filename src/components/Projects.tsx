@@ -14,7 +14,7 @@ function Projects() {
                     <h3 className="project-name">On the Ropes</h3>
                     <p>
                         Originally developed in C++, On the Ropes is a boxing simulation that I used to learn the basics
-                        of Typescript, browser storage, and routing. It has future plans of being a boxing manaagment
+                        of Typescript, browser storage, and routing. It has future plans of being a boxing managment
                         game, although most of those elements are not implemented as of yet. The current version of On
                         the Ropes includes the majority of the backbone of which a management game can be built upon.
                     </p>

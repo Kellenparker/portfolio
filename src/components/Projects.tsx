@@ -1,6 +1,7 @@
 import react from "react";
 import "./styles/Projects.css";
 import otr from "./imgs/otr.png";
+import bbbs from "./imgs/bbbs.png";
 
 function Projects() {
     return (
@@ -35,7 +36,7 @@ function Projects() {
             <div id="spacer-project" />
             <section className="project">
                 <div className="img-col">
-                    <img src={otr} alt="otr" className="project-img"></img>
+                    <img src={bbbs} alt="otr" className="project-img"></img>
                 </div>
                 <div className="col">
                     <h3 className="project-name">Bare Bones Battle Simulator</h3>

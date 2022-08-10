@@ -12,7 +12,7 @@
 
 /* Change color on hover */
 .bm-item:hover {
-    color: rgb(255, 182, 121);
+    color: rgb(0, 6, 111);
 }
 
 /* Position and sizing of burger button */
@@ -26,7 +26,7 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-    background: rgb(255, 182, 121);
+    background: rgb(0, 6, 111);
 }
 
 /* Position and sizing of clickable cross button */

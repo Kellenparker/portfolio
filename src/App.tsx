@@ -60,14 +60,14 @@ function App() {
                         },
                         particles: {
                             color: {
-                                value: "#ffffff",
+                                value: "#2222aa",
                             },
                             links: {
-                                color: "#ffffff",
-                                distance: 50,
+                                color: "#2222aa",
+                                distance: 100,
                                 enable: true,
-                                opacity: 0.2,
-                                width: 1,
+                                opacity: 0.3,
+                                width: .5,
                             },
                             collisions: {
                                 enable: true,
@@ -79,13 +79,13 @@ function App() {
                                     default: "bounce",
                                 },
                                 random: false,
-                                speed: 0.2,
-                                straight: false,
+                                speed: 0.1,
+                                straight: true,
                             },
                             number: {
                                 density: {
                                     enable: true,
-                                    area: 800,
+                                    area: 900,
                                 },
                                 value: 100,
                             },

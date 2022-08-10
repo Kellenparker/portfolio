@@ -61,6 +61,7 @@ function Projects() {
                     </div>
                 </div>
             </section>
+            <div id="spacer-project" />
         </section>
     );
 }

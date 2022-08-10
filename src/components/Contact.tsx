@@ -13,12 +13,12 @@ function Contact() {
                 <h1 className="contact-title center">Or find me at:</h1>
                 <div className="socials li center">
                     <SocialMediaIconsReact
-                        borderColor="rgba(76, 76, 76, 0.5)"
-                        borderWidth="2"
+                        borderColor="rgb(0, 6, 111)"
+                        borderWidth="1"
                         borderStyle="solid"
                         icon="linkedin"
-                        iconColor="rgba(60,60,60,1)"
-                        backgroundColor="rgb(255, 182, 121)"
+                        iconColor="rgb(0, 6, 111)"
+                        backgroundColor="rgba(0, 6, 111, 0)"
                         iconSize="4"
                         roundness="10%"
                         url="www.linkedin.com/in/kellen-parker"
@@ -27,12 +27,12 @@ function Contact() {
                 </div>
                 <div className="socials gh center">
                     <SocialMediaIconsReact
-                        borderColor="rgba(76, 76, 76, 0.5)"
-                        borderWidth="2"
+                        borderColor="rgb(0, 6, 111)"
+                        borderWidth="1"
                         borderStyle="solid"
                         icon="github"
-                        iconColor="rgba(60,60,60,1)"
-                        backgroundColor="rgb(255, 182, 121)"
+                        iconColor="rgb(0, 6, 111)"
+                        backgroundColor="rgba(0, 6, 111, 0)"
                         iconSize="4"
                         roundness="10%"
                         url="https://github.com/Kellenparker"

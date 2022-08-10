@@ -1,7 +1,7 @@
 
 
 .contact-card {
-    background-color: rgba(63, 63, 63, 0.2);
+    background-color: rgba(0, 6, 111, .1);
     border-radius: 10px;
     backdrop-filter: blur(5px);
     width: 300px;
@@ -14,7 +14,7 @@
 }
 
 .contact-title {
-    color: rgb(255, 182, 121);
+    color: rgb(0, 6, 111);
     margin-top: 0px;
 }
 

@@ -12,8 +12,13 @@
     display:-webkit-box;
 }
 
+.react-pdf__Page__canvas {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
 .download {
     margin-top: 30px;
+    margin-bottom: 30px;
     -webkit-box-align: center;
     -moz-box-align: center;
     -webkit-box-pack:center;
@@ -24,21 +29,22 @@
 .btn {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    color: white;
-    height: 40px;
-    width: 220px;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 250px;
     border: none;
-    background-color: rgb(100, 100, 100, .3);
-    transition: transform 0.02s ease-out, box-shadow 0.02s ease-out;
-    box-shadow: 0 2px 0 rgb(255, 182, 121);
+    background-color: rgb(135, 135, 135);
+    transition: transform 0.04s ease-out, box-shadow 0.04s ease-out;
+    box-shadow: 0 2px 0 rgb(0, 6, 111);
+    backdrop-filter: blur(5px);
     border-radius: 10px;
 }
 
 .btn:hover {
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(125, 125, 125);
 }
 
 .btn:active {
-    box-shadow: 0 0 0 rgb(255, 182, 121);
+    box-shadow: 0 0 0 rgb(0, 6, 111);
     transform: translateY(2px);
 }

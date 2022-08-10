@@ -1,13 +1,10 @@
 
-.projects {
-}
-
 .project-title {
     text-align: center;
 }
 
 .project {
-    background-color: rgba(255,182,121,.2);
+    background-color: rgba(0, 6, 111, .1);
     backdrop-filter: blur(5px);
     display: grid;
     grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
@@ -35,7 +32,7 @@
 
 .project-name {
     font-size: 30px;
-    color: rgba(255,182,121,1);
+    color: rgb(0, 6, 111);
 }
 
 #spacer-project {
@@ -54,9 +51,9 @@
     height: 35px;
     width: 120px;
     border: none;
-    background-color: rgba(59, 59, 59, 0.9);
+    background-color: rgb(135, 135, 135);
     transition: transform 0.04s ease-out, box-shadow 0.04s ease-out;
-    box-shadow: 0 2px 0 rgb(255, 182, 121);
+    box-shadow: 0 2px 0 rgb(0, 6, 111);
 }
 
 .btn-left {
@@ -64,11 +61,11 @@
 }
 
 .btn-proj:hover {
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(125, 125, 125);
 }
 
 .btn-proj:active {
-    box-shadow: 0 0 0 rgb(255, 182, 121);
+    box-shadow: 0 0 0 rgb(0, 6, 111);
     transform: translateY(2px);
 }
 

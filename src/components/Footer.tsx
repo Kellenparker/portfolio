@@ -10,11 +10,11 @@ function Footer() {
             <p style={{ marginTop: "0", paddingTop: "20px" }}>Connect and Learn More!</p>
             <div className="socials li">
                 <SocialMediaIconsReact
-                    borderColor="rgba(76, 76, 76, 0.5)"
-                    borderWidth="2"
+                    borderColor="rgb(0, 6, 111)"
+                    borderWidth="1"
                     borderStyle="solid"
                     icon="linkedin"
-                    iconColor="rgba(255,255,255,1)"
+                    iconColor="rgb(0, 6, 111)"
                     backgroundColor="rgba(26,166,233,0)"
                     iconSize="2"
                     roundness="10%"
@@ -24,11 +24,11 @@ function Footer() {
             </div>
             <div className="socials gh">
                 <SocialMediaIconsReact
-                    borderColor="rgba(76, 76, 76, 0.5)"
-                    borderWidth="2"
+                    borderColor="rgb(0, 6, 111)"
+                    borderWidth="1"
                     borderStyle="solid"
                     icon="github"
-                    iconColor="rgba(255,255,255,1)"
+                    iconColor="rgb(0, 6, 111)"
                     backgroundColor="rgba(26,166,233,0)"
                     iconSize="2"
                     roundness="10%"

@@ -14,7 +14,7 @@ function Home() {
                 </div>
                 <div className="col">
                     <div className="introduction">
-                        <h3>Hello, my name is</h3>
+                        <h3 className="hello">Hello, my name is</h3>
                         <h1 className="name sec">Kellen Parker</h1>
                         <p>
                             I am a <strong className="sec"> computer science </strong> student from{" "}

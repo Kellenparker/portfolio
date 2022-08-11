@@ -75,15 +75,12 @@
         padding-right: 10%;
     }
 }
+
 @media (max-width: 850px) {
     .project {
+        grid-template-columns: repeat(1, 1fr); 
         padding-left: 0;
         padding-right: 0;
-    }
-}
-@media (max-width: 650px) {
-    .project {
-        grid-template-columns: repeat(1, 1fr); 
     }
     .project-img {
         position: sticky;

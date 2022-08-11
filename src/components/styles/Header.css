@@ -1,6 +1,6 @@
 
 .header {
-    background-color: rgba(146, 146, 146, 0.7);
+    background-color: rgba(231, 231, 231, 0.7);
     position: fixed;
     backdrop-filter: blur(5px);
     top: 0;
@@ -19,14 +19,7 @@
     transform: translateY(-50%);
     font-size: 30px;
     font-weight: bold;
-    background-color: rgb(0, 6, 111);
-    background-image: linear-gradient(90deg, rgba(255,255,255,1) 49%, rgb(0, 6, 111) 50%);
-    background-size: 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+    color: rgb(0, 6, 111);
 }
 
 .btn-group {
@@ -37,12 +30,28 @@
     right: 20%;
 }
 
+.short {
+    opacity: 0;
+    display: none;
+}
+
 @media (max-width: 1200px) {
     .title {
         left: 5%;
     }
     .btn-group {
         right: 5%;
+    }
+}
+
+@media (max-width: 800px) {
+    .full {
+        opacity: 0;
+        display: none;
+    }
+    .short {
+        opacity: 100;
+        display: block;
     }
 }
 

@@ -34,13 +34,8 @@
     height: auto;
 }
 
-.introduction {
-    color: #000000;
-    padding-left: 5%;
-}
-
 .name {
-    font-size: 50px;
+    font-size: 60px;
     white-space: nowrap;
     padding-bottom: 10px;
     margin-top: 0;
@@ -66,7 +61,7 @@
     transform: translateY(-50%);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     
     .split { 
         grid-template-columns: repeat(1, 1fr); 
@@ -81,10 +76,15 @@
     }
     .name {
         font-size: 30px;
+        text-align: center;
+    }
+    .hello {
+        text-align: center;
+        margin-bottom: 5px;
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1200px) {
     .split {
         padding-left: 5%;
         padding-right: 5%;
@@ -97,7 +97,7 @@
     }
     .snip {
         position: inherit;
-        top: 0;
-        transform: translateY(0);
+        margin-top: 3em;
+        transform: translateY(50%);
     }
 }

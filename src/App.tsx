@@ -110,7 +110,6 @@ function App() {
                     />
                 )}
                 <Header showButtons={windowSize.innerWidth > showButtonWidth} />
-                <div id="spacer" />
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/projects" element={<Projects />} />

@@ -37,7 +37,7 @@
 
 @media (max-width: 1200px) {
     .title {
-        left: 5%;
+        left: 30px;
     }
     .btn-group {
         right: 5%;

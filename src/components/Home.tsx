@@ -6,6 +6,7 @@ import Snippet from "./Snippet";
 function Home() {
     return (
         <section className="home-section">
+            <div className="space"></div>
             <section className="split">
                 <div className="col">
                     <div className="img-cont">

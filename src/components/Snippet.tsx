@@ -14,9 +14,9 @@ const changeDuration = 2000;
 
 class Snippet extends React.Component<myProps, myState> {
     code = ['<div id="root">', 
-            'getCode = () =>', 
-            'obj[i]->getCode()', 
-            'interface code ='];
+            'getWidth = () =>', 
+            'obj[i]->getSize()', 
+            'type myProps = {}'];
     changeInterval: NodeJS.Timer | undefined;
     cursorInterval: NodeJS.Timer | undefined;
     constructor(props: myProps | Readonly<myProps>) {

@@ -8,6 +8,32 @@ function Projects() {
             <h1 className="project-title">Projects</h1>
             <section className="project">
                 <div className="img-col">
+                    <p className="mapple-title">Mapple</p>
+                </div>
+                <div className="col">
+                    <h3 className="project-name">Mapple</h3>
+                    <p>
+                        A Wordle inspired guessing game where you guess the year of the map that is displayed. 
+                        Developed with ease-of-use, extensibility, and responsiveness as the main goals of the project.
+                        Makes use of AWS to allow for maps to be added, edited, and removed easily with no change to the project code.
+                    </p>
+                    <div className="btn-group-proj" role="group" aria-label="project buttons">
+                        <a href="https://mapple.kellenp.com/" target="_blank" rel="noreferrer">
+                            <button type="button" className="btn-proj btn-left">
+                                Try it!
+                            </button>
+                        </a>
+                        <a href="http://github.com/kellenparker/mapple" target="_blank" rel="noreferrer">
+                            <button type="button" className="btn-proj btn-right">
+                                Source
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <div id="spacer-project" />
+            <section className="project">
+                <div className="img-col">
                     <img src={otr} alt="otr" className="project-img"></img>
                 </div>
                 <div className="col">

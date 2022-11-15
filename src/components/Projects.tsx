@@ -12,7 +12,7 @@ function Projects() {
                 </div>
                 <div className="col">
                     <h3 className="project-name">Mapple</h3>
-                    <p>
+                    <p className="proj-desc">
                         A Wordle inspired guessing game where you guess the year of the map that is displayed. 
                         Developed with ease-of-use, extensibility, and responsiveness as the main goals of the project.
                         Makes use of AWS to allow for maps to be added, edited, and removed easily with no change to the project code.
@@ -38,7 +38,7 @@ function Projects() {
                 </div>
                 <div className="col">
                     <h3 className="project-name">On the Ropes</h3>
-                    <p>
+                    <p className="proj-desc">
                         Originally developed in C++, On the Ropes is a boxing simulation that I used to learn the basics
                         of Typescript, browser storage, and routing. It has future plans of being a boxing managment
                         game, although most of those elements are not implemented as of yet. The current version of On
@@ -66,7 +66,7 @@ function Projects() {
                 </div>
                 <div className="col">
                     <h3 className="project-name">Bare Bones Battle Simulator</h3>
-                    <p>
+                    <p className="proj-desc">
                         As my first attempt at making a web app, Bare Bones Battle Simulator is very simple and
                         primative in nature. It simulates two opponents squaring off against eachother. Each opponent
                         can have multiple armies and each army can be edited to the user's liking. This app taught me

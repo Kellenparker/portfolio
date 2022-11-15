@@ -2,38 +2,22 @@ import React from "react";
 import "./styles/Footer.css";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import { SocialMediaIconsReact } from "social-media-icons-react";
+import { SocialIcon } from "react-social-icons";
 
 function Footer() {
     return (
         <section className="footer">
             <p style={{ marginTop: "0", paddingTop: "20px" }}>Connect and Learn More!</p>
             <div className="socials li">
-                <SocialMediaIconsReact
-                    borderColor="rgb(0, 6, 111)"
-                    borderWidth="1"
-                    borderStyle="solid"
-                    icon="linkedin"
-                    iconColor="rgb(0, 6, 111)"
-                    backgroundColor="rgba(26,166,233,0)"
-                    iconSize="2"
-                    roundness="10%"
+                <SocialIcon
+                    network="linkedin"
                     url="www.linkedin.com/in/kellen-parker"
-                    size="30"
                 />
             </div>
             <div className="socials gh">
-                <SocialMediaIconsReact
-                    borderColor="rgb(0, 6, 111)"
-                    borderWidth="1"
-                    borderStyle="solid"
-                    icon="github"
-                    iconColor="rgb(0, 6, 111)"
-                    backgroundColor="rgba(26,166,233,0)"
-                    iconSize="2"
-                    roundness="10%"
+                <SocialIcon
+                    network="github"
                     url="https://github.com/Kellenparker"
-                    size="30"
                 />
             </div>
             <section className="btm">

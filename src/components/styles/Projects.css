@@ -26,6 +26,7 @@
 .mapple-title {
     font-size: 100px;
     text-align: center;
+    margin: auto;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 0 rgb(171, 0, 0), 4px 4px 0 black;
     font-family: "Dancing Script", cursive;
@@ -43,6 +44,10 @@
 .project-name {
     font-size: 30px;
     color: rgb(0, 6, 111);
+}
+
+.proj-desc {
+    padding-right: 10%;
 }
 
 #spacer-project {

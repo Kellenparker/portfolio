@@ -17,12 +17,10 @@ function App() {
     const showButtonWidth = 800;
 
     const particlesInit = async (main: Engine) => {
-        console.log(main);
         await loadFull(main);
     };
 
     const particlesLoaded = (container: any): any => {
-        console.log(container);
     };
 
     useEffect(() => {

@@ -104,8 +104,8 @@
     }
 }
 
-@media (max-height: 1500px) {
+@media (min-width: 1100px) {
     .space {
-        height: 70px;
+        height: 140px;
     }
 }

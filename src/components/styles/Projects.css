@@ -3,10 +3,10 @@
 }
 
 .project {
-    background-color: #00066f21;
+    background-color: #000a4317;
     border-top: solid 2px rgba(0, 12, 147, 0.82);
     border-bottom: solid 2px rgba(0, 12, 147, 0.82);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-left: 10vw;
     margin-right: 10vw;

@@ -12,7 +12,7 @@ function Contact() {
                 <p className="email center">kellenrparker@gmail.com</p>
                 <h1 className="contact-title center">Or find me at:</h1>
                 <div className="socials li center">
-                    <SocialIcon network="linkedin" url="www.linkedin.com/in/kellen-parker" />
+                    <SocialIcon network="linkedin" url="https://www.linkedin.com/in/kellen-parker" />
                 </div>
                 <div className="socials gh center">
                     <SocialIcon network="github" url="https://github.com/Kellenparker" />
